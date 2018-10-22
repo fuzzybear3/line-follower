@@ -84,7 +84,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-
+    <ClInclude Include="Led.h" />
     <ClInclude Include="Constants.h" />
     <ClInclude Include="LineFollower.h" />
     <ClInclude Include="Sensor.h" />
@@ -95,6 +95,7 @@
     <ClCompile Include="LineFollower.cpp" />
     <ClCompile Include="SensorArray.cpp" />
     <ClCompile Include="Sensor.cpp" />
+     <ClCompile Include="Led.cpp" />
   </ItemGroup>
   <PropertyGroup>
     <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
